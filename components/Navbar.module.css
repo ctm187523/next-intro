@@ -1,0 +1,8 @@
+
+/* creamos estilos para la el Navbar */
+
+/* creamos la clase menu-container y hacemos referencia a la etiqueta a 
+porque el componente Link se traduce a una etiqueta a*/
+.menu-container a  {
+    margin-right: 10px;
+}
