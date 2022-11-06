@@ -1,7 +1,8 @@
+import { FC } from 'react';
 
 //creamos un HDO(Higher order component)
-
-export const DarkLayout = ({ children }) => {
+//decimos que es de tipo FC Funcional component
+export const DarkLayout: FC<any> = ({ children } ) => {
     return (
         <div style={{
             backgroundColor: 'rgba(0,0,0,0.3)',
