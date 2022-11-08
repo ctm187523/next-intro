@@ -30,7 +30,7 @@ export default function AboutPage() {
 //anidamos los layouts usando el AboutPage usamos un Layout que sera anidado al MainLayout creado por nosotros en 
 //components/layouts/DarkLayout.jsx para que funcione tenemos que ir al
 //archivo principal pages/_app.js y implemetarlo 
-AboutPage.getLayout = function getLayout(page) {
+AboutPage.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
       <DarkLayout>

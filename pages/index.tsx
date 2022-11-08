@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { MainLayout } from '../components/layouts/MainLayout'
 
-export default function HomePage( { children}) {
+export default function HomePage() {
   return (
     // usamos el Higher Order Component(HCO) creado por mi en 
     //components/layouts/MainLayout.jsx
